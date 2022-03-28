@@ -11,13 +11,15 @@ export default function Navbar() {
         <div className={styles.container}>
             <div className={styles.wrapper}>
                 <h1>Portfólio</h1>
-                <ul className={show ? styles.show : null}>
-                    <div onClick={() => setShow(false)} className={styles.closeButton}>< AiOutlineCloseCircle /></div>
-                    <li className={show ? styles.show : null}>Home</li>
-                    <li className={show ? styles.show : null}>Sobre</li>
-                    <li className={show ? styles.show : null}>Projetos</li>
-                    <li className={show ? styles.show : null}>Contato</li>
-                </ul>
+                <nav>
+                    <ul className={show ? styles.show : null}>
+                        <div onClick={() => setShow(false)} className={styles.closeButton}>< AiOutlineCloseCircle /></div>
+                        <li className={show ? styles.show : null}>Home</li>
+                        <li className={show ? styles.show : null}>Sobre</li>
+                        <li className={show ? styles.show : null}>Projetos</li>
+                        <li className={show ? styles.show : null}>Contato</li>
+                    </ul>
+                </nav>
                 <div onClick={() => setShow(!show)} className={styles.hamburgerIcon}>
                     <GiHamburgerMenu />
                 </div>
