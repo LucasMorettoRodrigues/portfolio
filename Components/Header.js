@@ -1,4 +1,4 @@
-import styles from '../styles/Header.module.css'
+import styles from '../styles/Header.module.scss'
 import Image from 'next/image'
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
 
@@ -15,7 +15,7 @@ export default function Header() {
                 </div>
             </div>
             <div className={styles.right}>
-                <Image src='/images/ilustration1.png' layout='responsive' width={100} height={84} alt='computer' objectPosition='0 -20px' />
+                <Image src='/images/ilustration1.png' layout='responsive' width={100} height={82} alt='computer' objectPosition='0 -20px' />
             </div>
         </div>
     )

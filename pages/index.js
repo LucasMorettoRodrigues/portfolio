@@ -1,6 +1,6 @@
 import Navbar from '../Components/Navbar'
 import Header from '../Components/Header'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import Projects from '../Components/Projects'
 
 export default function Home() {

@@ -1,7 +1,8 @@
-import styles from '../styles/Navbar.module.css'
+import styles from '../styles/Navbar.module.scss'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { useState } from 'react'
+import Link from 'next/link'
 
 export default function Navbar() {
 
@@ -10,14 +11,14 @@ export default function Navbar() {
     return (
         <div className={styles.container}>
             <div className={styles.wrapper}>
-                <h1>Portfólio</h1>
+                <Link href='/' ><h1>Portfólio</h1></Link >
                 <nav>
                     <ul className={show ? styles.show : null}>
                         <div onClick={() => setShow(false)} className={styles.closeButton}>< AiOutlineCloseCircle /></div>
-                        <li className={show ? styles.show : null}>Home</li>
-                        <li className={show ? styles.show : null}>Sobre</li>
-                        <li className={show ? styles.show : null}>Projetos</li>
-                        <li className={show ? styles.show : null}>Contato</li>
+                        <Link href='/'><li className={show ? styles.show : null}>Home</li></Link >
+                        <Link href='/sobre'><li className={show ? styles.show : null}>Sobre</li></Link >
+                        <Link href='/projetos'><li className={show ? styles.show : null}>Projetos</li></Link >
+                        <Link href='/contato'><li className={show ? styles.show : null}>Contato</li></Link >
                     </ul>
                 </nav>
                 <div onClick={() => setShow(!show)} className={styles.hamburgerIcon}>

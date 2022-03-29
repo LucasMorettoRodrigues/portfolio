@@ -1,7 +1,7 @@
-import styles from '../styles/Projects.module.css'
+import styles from '../styles/Projects.module.scss'
 import Image from 'next/image'
 import { BsGithub, BsFillArrowUpRightCircleFill } from 'react-icons/bs'
-import { SiJavascript, SiReact, SiNodedotjs, SiRedux, SiTypescript, SiMongodb, SiExpress, SiPostgresql, SiSequelize } from 'react-icons/si'
+import { SiJavascript, SiReact, SiNodedotjs, SiRedux, SiTypescript, SiMongodb, SiExpress, SiPostgresql, SiSequelize, SiStyledcomponents } from 'react-icons/si'
 
 export default function Projects() {
     return (
@@ -11,7 +11,7 @@ export default function Projects() {
                 <ul>
                     <li>
                         <div className={styles.image}>
-                            <Image src='/images/musicstore.png' layout='responsive' width={913} height={585} style={{ borderRadius: '5px' }} />
+                            <Image src='/images/musicstore.png' layout='responsive' width={1100} height={585} style={{ borderRadius: '5px' }} />
                         </div>
                         <div className={styles.info}>
                             <h3>E-commerce - MERN stack</h3>
@@ -43,7 +43,7 @@ export default function Projects() {
                     </li>
                     <li>
                         <div className={styles.image}>
-                            <Image src='/images/financas.png' layout='responsive' width={913} height={585} style={{ borderRadius: '5px', zIndex: -10 }} />
+                            <Image src='/images/financas.png' layout='responsive' width={1100} height={585} style={{ borderRadius: '5px' }} />
                         </div>
                         <div className={styles.info}>
                             <h3>App de Finanças Pessoais - PERN stack</h3>
@@ -58,6 +58,7 @@ export default function Projects() {
                                 <li style={{ backgroundColor: '#007acc' }}><SiTypescript /><span>TypeScript</span></li>
                                 <li style={{ backgroundColor: '#61DBFB' }}><SiReact /><span>React</span></li>
                                 <li style={{ backgroundColor: '#764abc' }}><SiRedux /><span>Redux</span></li>
+                                <li style={{ backgroundColor: '#FF7796' }}><SiStyledcomponents /><span>styled-components</span></li>
                             </ul>
                             <h4> Tecnologias utilizadas no Back End </h4>
                             <ul>
