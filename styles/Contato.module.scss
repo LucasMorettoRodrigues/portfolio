@@ -19,7 +19,7 @@
     
     max-width: 600px;
     background-color: white;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     border-radius: 5px;
 
     h3 {
@@ -47,8 +47,8 @@
             margin-bottom: 20px;
             border-radius: 5px;
             border: none;
-            outline-color: 1px 'lightblue';
-            background-color: rgb(243, 243, 243);
+            outline-color: lightblue;
+            background-color: rgb(233, 233, 233);
 
             &::placeholder {
                 color: $primary-color-3;

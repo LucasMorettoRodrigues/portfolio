@@ -1,9 +1,5 @@
 @import '_variables';
 
-.container {
-    /* background-color: rgb(131, 210, 255); */
-}
-
 .wrapper {
     display: flex;
     align-items: center;
@@ -14,6 +10,7 @@
     h1 {
         letter-spacing: 2px;
         margin: 20px 20px;
+        color: $primary-color-3;
         font-size: 36px;
         text-shadow: 0px 4px 4px #868686;
         cursor: pointer;
@@ -27,6 +24,7 @@
     z-index: 1;
 
     li {
+        color: $primary-color-3;
         padding: 10px 10px;
         margin-left: 18px;
         letter-spacing: 2px;
@@ -45,6 +43,7 @@
 
 .hamburgerIcon {
     display: none;
+    color: $primary-color-3;
     margin-right: 20px;
     font-size: 26px;
     cursor: pointer;
@@ -52,6 +51,7 @@
 
 .closeButton {
     display: none;
+    color: $primary-color-3;
     padding: 20px;
     position: fixed;
     font-size: 30px;
@@ -72,6 +72,7 @@
     
     .wrapper nav ul {
         position: fixed;
+        z-index: 10;
         top: 0;
         left: 0;
         bottom: 0;

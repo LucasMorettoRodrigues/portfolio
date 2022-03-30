@@ -1,0 +1,56 @@
+@import '_variables';
+
+.container {
+    background-color: black;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+
+    .next{
+        display: flex;
+        p {
+            color: rgb(212, 212, 212);
+            margin-right: 10px;
+            margin-top: 36px;
+            letter-spacing: 3px;
+            font-size: 12px;
+        }
+    }
+
+    .icons svg {
+        font-size: 24px;
+        margin-left: 20px;
+        cursor: pointer;
+
+        &:hover {
+            color: $primary-color-1;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .wrapper {
+        padding: 10px;
+
+        .next{
+            p {
+                margin-right: 5px;
+                letter-spacing: 1px;
+                font-size: 10px;
+            }
+        }
+
+        .icons svg {
+            font-size: 20px;
+            margin-left: 16px;
+            cursor: pointer;
+        }
+    }
+}

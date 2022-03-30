@@ -1,6 +1,7 @@
 import Navbar from '../../Components/Navbar'
 import styles from '../../styles/Contato.module.scss'
 import { useState } from 'react'
+import Footer from '../../Components/Footer'
 
 export default function Contato() {
 
@@ -29,6 +30,7 @@ export default function Contato() {
                     </div>
                 </section>
             </div>
+            <Footer />
         </>
     )
 }
