@@ -1,0 +1,138 @@
+@import '_variables';
+
+.container {
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+.title {
+    margin-bottom: 50px;
+    font-size: 44px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(255, 196, 0);
+}
+
+.miniProjects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 50px;
+
+    .miniProjectsCard {
+        flex-basis: 48%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 5px;
+        transition: .5s ease-in-out;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+
+        p {
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-size: 22px;
+            letter-spacing: 3px;
+            color: $primary-color-3;
+        }
+    }
+}
+
+.tags1 {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        font-size: 26px;
+        color: #111;
+
+        span {
+            margin: 0 5px;
+            font-size: 16px;
+        }
+    }
+}
+
+.icons {
+    display: flex;
+
+    button {
+        flex: 1;
+        width: 139px;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 5px;
+        background-color: $primary-color-3;
+        padding: 6px 16px;
+        border: solid 2px $primary-color-3;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all .5s ease;
+
+        &:hover {
+            color: $primary-color-3;
+            background-color: white;
+            border: solid 2px $primary-color-3;
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .miniProjects{
+            .miniProjectsCard {
+        flex: 1;
+    }
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .miniProjects {
+        .miniProjectsCard {
+            margin: 10px 0;
+        }
+
+        .tags1 li {
+            margin: 5px;
+            font-size: 20px;
+
+            span {
+                font-size: 14px;
+            }
+        }
+
+        .icons button {
+            font-size: 20px;
+            width: 130px;
+
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+
+}
+
