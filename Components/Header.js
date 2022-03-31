@@ -1,6 +1,7 @@
 import styles from '../styles/Header.module.scss'
 import Image from 'next/image'
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
+import Link from 'next/link'
 
 export default function Header() {
     return (
@@ -8,10 +9,10 @@ export default function Header() {
             <div className={styles.left}>
                 <h1>Olá, eu sou Lucas</h1>
                 <h3>Fullstack Web Developer</h3>
-                <button>Contato</button>
+                <Link href='/contato'><button>Contato</button></Link>
                 <div className={styles.icons}>
-                    <a><BsLinkedin /></a>
-                    <a><BsGithub /></a>
+                    <a href='https://br.linkedin.com/in/lucas-moretto-rodrigues-67897310a'><BsLinkedin /></a>
+                    <a href='https://github.com/LucasMorettoRodrigues/'><BsGithub /></a>
                 </div>
             </div>
             <div className={styles.right}>

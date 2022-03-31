@@ -7,7 +7,10 @@ export default function Header() {
         <div className={styles.container}>
             <footer className={styles.wrapper}>
                 <div className={styles.next}><p>Criado com</p> <Image src='/images/next.png' layout='fixed' width={110} height={66}></Image></div>
-                <div className={styles.icons}><BsLinkedin /> <BsGithub /></div>
+                <div className={styles.icons}>
+                    <a href='https://br.linkedin.com/in/lucas-moretto-rodrigues-67897310a'><BsLinkedin /> </a>
+                    <a href='https://github.com/LucasMorettoRodrigues/'><BsGithub /></a>
+                </div>
             </footer>
         </div>
 

@@ -46,7 +46,7 @@
     border-radius: 5px;
     padding: 20px;
     width: 634px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 
     h3 {
         font-weight: 100;
@@ -97,7 +97,7 @@
 .icons {
     display: flex;
 
-    button {
+    a {
         display: flex;
         align-items: center;
         margin-top: 5px;
@@ -203,7 +203,7 @@
     }
 
     .icons {
-        button {
+        a {
             font-size: 20px;
             margin-right: 5px;
 

@@ -36,8 +36,8 @@ export default function Projects() {
                                 <li style={{ backgroundColor: '#4DB33D' }}><SiMongodb /><span>MongoDB</span></li>
                             </ul>
                             <div className={styles.icons}>
-                                <button><BsGithub /> <span>Código</span></button>
-                                <button><BsFillArrowUpRightCircleFill /> <span>Ver demo</span></button>
+                                <a href='https://github.com/LucasMorettoRodrigues/musicstore-api'><BsGithub /> <span>Código</span></a>
+                                <a href='https://lucasmorettorodrigues.github.io/musicstore/'><BsFillArrowUpRightCircleFill /> <span>Ver demo</span></a>
                             </div>
                         </div>
                     </li>
@@ -69,8 +69,8 @@ export default function Projects() {
                                 <li style={{ backgroundColor: '#46B6FF' }}><SiSequelize /><span>Sequelize</span></li>
                             </ul>
                             <div className={styles.icons}>
-                                <button><BsGithub /> <span>Código</span></button>
-                                <button><BsFillArrowUpRightCircleFill /><span>Ver demo</span></button>
+                                <a href='https://github.com/LucasMorettoRodrigues/financas'><BsGithub /> <span>Código</span></a>
+                                <a href='https://lucasmorettorodrigues.github.io/financas/'><BsFillArrowUpRightCircleFill /><span>Ver demo</span></a>
                             </div>
                         </div>
                     </li>
@@ -99,8 +99,8 @@ export default function Projects() {
                                 <li style={{ backgroundColor: '#4DB33D' }}><SiMongodb /><span>MongoDB</span></li>
                             </ul>
                             <div className={styles.icons}>
-                                <button><BsGithub /> <span>Código</span></button>
-                                <button><BsFillArrowUpRightCircleFill /> <span>Ver demo</span></button>
+                                <a href='https://github.com/LucasMorettoRodrigues/rememeber-api'><BsGithub /> <span>Código</span></a>
+                                <a href='https://lucasmorettorodrigues.github.io/remember/'><BsFillArrowUpRightCircleFill /> <span>Ver demo</span></a>
                             </div>
                         </div>
                     </li>
