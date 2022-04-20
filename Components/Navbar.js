@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <div className={styles.wrapper}>
-            <Link href='/' ><h1>Portfólio</h1></Link >
+            <Link href='/' ><h1 className='logo'>LM</h1></Link >
             <nav>
                 <ul className={show ? styles.show : null}>
                     <div onClick={() => setShow(false)} className={styles.closeButton}>< AiOutlineCloseCircle /></div>

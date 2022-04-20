@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <div className={styles.container}>
             <div className={styles.left}>
-                <h1>Olá, eu sou Lucas</h1>
+                <h1><span className='logo'>L</span>ucas <span className='logo'>M</span>oretto</h1>
                 <h3>Fullstack Web Developer</h3>
                 <Link href='/contato'><button>Contato</button></Link>
                 <div className={styles.icons}>

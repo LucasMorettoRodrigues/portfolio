@@ -8,7 +8,9 @@ export default function Projects() {
     return (
         <div className={styles.container}>
             <div className={styles.wrapper}>
-                <h2>Meus Projetos</h2>
+                <div className={styles.title}>
+                    <h2>Meus Projetos</h2>
+                </div>
                 <ul>
                     <li>
                         <div className={styles.image}>
@@ -17,10 +19,9 @@ export default function Projects() {
                         <div className={styles.info}>
                             <h3>E-commerce - MERN stack</h3>
                             <p>
-                                - Criação de conta de usuário e sistema de login. <br />
-                                - Jason Web Token para autenticação de usuário.<br />
-                                - Carrinho de compras utilizando Redux. <br />
-                                - Design 100% responsivo. <br />
+                                - Registro e login de usuário. <br />
+                                - Autenticação com JsonWebToken.<br />
+                                - Responsive Design. <br />
                             </p>
                             <h4> Tecnologias utilizadas no Front End </h4>
                             <ul className={styles.tags}>
@@ -37,7 +38,7 @@ export default function Projects() {
                             </ul>
                             <div className={styles.icons}>
                                 <a href='https://github.com/LucasMorettoRodrigues/musicstore-api'><BsGithub /> <span>Código</span></a>
-                                <a href='https://lucasmorettorodrigues.github.io/musicstore/'><BsFillArrowUpRightCircleFill /> <span>Ver demo</span></a>
+                                <a href='https://lucasmorettorodrigues.github.io/musicstore/'><BsFillArrowUpRightCircleFill /> <span>Visitar</span></a>
                             </div>
                         </div>
                     </li>
@@ -48,10 +49,9 @@ export default function Projects() {
                         <div className={styles.info}>
                             <h3>App de Finanças Pessoais - PERN stack</h3>
                             <p>
-                                - Criação de contas, despesas, receitas e transações. <br />
                                 - Migrations e seeders para popular banco de dados.<br />
                                 - Requisições assíncronas à API com Redux Thunk. <br />
-                                - Design 100% responsivo. <br />
+                                - Responsive design. <br />
                             </p>
                             <h4> Tecnologias utilizadas no Front End </h4>
                             <ul className={styles.tags}>
@@ -70,7 +70,7 @@ export default function Projects() {
                             </ul>
                             <div className={styles.icons}>
                                 <a href='https://github.com/LucasMorettoRodrigues/financas'><BsGithub /> <span>Código</span></a>
-                                <a href='https://lucasmorettorodrigues.github.io/financas/'><BsFillArrowUpRightCircleFill /><span>Ver demo</span></a>
+                                <a href='https://lucasmorettorodrigues.github.io/financas/'><BsFillArrowUpRightCircleFill /><span>Visitar</span></a>
                             </div>
                         </div>
                     </li>
@@ -81,9 +81,8 @@ export default function Projects() {
                         <div className={styles.info}>
                             <h3>Todo List Web App - MERN stack</h3>
                             <p>
-                                - Criação de conta de usuário e sistema de login. <br />
-                                - Jason Web Token para autenticação de usuário.<br />
-                                - Criação de projetos e atribuição de tarefas<br />
+                                - Registro e Login de usuário. <br />
+                                - Autenticação com JsonWebToken .<br />
                                 - CRUD utilizando express, mongoose e mongoDB. <br />
                             </p>
                             <h4> Tecnologias utilizadas no Front End </h4>
@@ -100,7 +99,7 @@ export default function Projects() {
                             </ul>
                             <div className={styles.icons}>
                                 <a href='https://github.com/LucasMorettoRodrigues/rememeber-api'><BsGithub /> <span>Código</span></a>
-                                <a href='https://lucasmorettorodrigues.github.io/remember/'><BsFillArrowUpRightCircleFill /> <span>Ver demo</span></a>
+                                <a href='https://lucasmorettorodrigues.github.io/remember/'><BsFillArrowUpRightCircleFill /> <span>Visitar</span></a>
                             </div>
                         </div>
                     </li>
