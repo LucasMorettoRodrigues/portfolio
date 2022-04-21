@@ -45,6 +45,7 @@ export default function Home() {
                                 <li>Node.js</li>
                                 <li>JavaScript</li>
                                 <li>TypeScript</li>
+                                <li>API Rest</li>
                                 <li>Linux</li>
                                 <li>Github</li>
                                 <li>Git</li>
