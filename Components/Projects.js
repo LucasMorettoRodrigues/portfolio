@@ -23,18 +23,21 @@ export default function Projects() {
                                 - Autenticação com JsonWebToken.<br />
                                 - Responsive Design. <br />
                             </p>
-                            <h4> Tecnologias utilizadas no Front End </h4>
+                            <h4>Front End Stack </h4>
                             <ul className={styles.tags}>
-                                <li style={{ backgroundColor: '#F0DB4F' }}><SiJavascript /><span>JavaScript</span></li>
-                                <li style={{ backgroundColor: '#61DBFB' }}><SiReact /><span>React</span></li>
-                                <li style={{ backgroundColor: '#764abc' }}><SiRedux /><span>Redux</span></li>
+                                <li><img src="https://img.shields.io/badge/HTML5-CB7200?style=for-the-badge&logo=html5&logoColor=FFAA3D" alt='html'></img></li>
+                                <li><img src="https://img.shields.io/badge/CSS3-00658E?style=for-the-badge&logo=css3&logoColor=6CCCFF" alt='css'></img></li>
+                                <li><img src="https://img.shields.io/badge/JavaScript-A3A300?style=for-the-badge&logo=javascript" alt='javascript'></img></li>
+                                <li><img src="https://img.shields.io/badge/React-323739?style=for-the-badge&logo=react" alt='react'></img></li>
+                                <li><img src="https://img.shields.io/badge/redux-CA68FF?style=for-the-badge&logo=redux&logoColor=764abc" alt='redux'></img></li>
+                                <li><img src="https://img.shields.io/badge/styled--components-FD06FD?style=for-the-badge&logo=styled-components&logoColor=FFF" alt='styled-components'></img></li>
                             </ul>
-                            <h4> Tecnologias utilizadas no Back End </h4>
+                            <h4> Back End Stack</h4>
                             <ul className={styles.tags}>
-                                <li style={{ backgroundColor: '#007acc' }}><SiTypescript /><span>TypeScript</span></li>
-                                <li style={{ backgroundColor: '#68a063' }}><SiNodedotjs /><span>Node.js</span></li>
-                                <li style={{ backgroundColor: '#999' }}><SiExpress /><span>Express</span></li>
-                                <li style={{ backgroundColor: '#4DB33D' }}><SiMongodb /><span>MongoDB</span></li>
+                                <li><img src="https://img.shields.io/badge/typescript-08004D?style=for-the-badge&logo=typescript" alt='typescript'></img></li>
+                                <li><img src="https://img.shields.io/badge/node.js-045200?style=for-the-badge&logo=node.js" alt='nodejs'></img></li>
+                                <li><img src="https://img.shields.io/badge/express-323739?style=for-the-badge&logo=express" alt='express'></img></li>
+                                <li><img src="https://img.shields.io/badge/mongodb-045200?style=for-the-badge&logo=mongodb" alt='mongodb'></img></li>
                             </ul>
                             <div className={styles.icons}>
                                 <a href='https://github.com/LucasMorettoRodrigues/musicstore-api'><BsGithub /> <span>Código</span></a>
@@ -53,20 +56,22 @@ export default function Projects() {
                                 - Requisições assíncronas à API com Redux Thunk. <br />
                                 - Responsive design. <br />
                             </p>
-                            <h4> Tecnologias utilizadas no Front End </h4>
+                            <h4>Front End Stack </h4>
                             <ul className={styles.tags}>
-                                <li style={{ backgroundColor: '#007acc' }}><SiTypescript /><span>TypeScript</span></li>
-                                <li style={{ backgroundColor: '#61DBFB' }}><SiReact /><span>React</span></li>
-                                <li style={{ backgroundColor: '#764abc' }}><SiRedux /><span>Redux</span></li>
-                                <li style={{ backgroundColor: '#FF7796' }}><SiStyledcomponents /><span>styled-components</span></li>
+                                <li><img src="https://img.shields.io/badge/HTML5-CB7200?style=for-the-badge&logo=html5&logoColor=FFAA3D" alt='html'></img></li>
+                                <li><img src="https://img.shields.io/badge/CSS3-00658E?style=for-the-badge&logo=css3&logoColor=6CCCFF" alt='css'></img></li>
+                                <li><img src="https://img.shields.io/badge/typescript-08004D?style=for-the-badge&logo=typescript" alt='typescript'></img></li>
+                                <li><img src="https://img.shields.io/badge/React-323739?style=for-the-badge&logo=react" alt='react'></img></li>
+                                <li><img src="https://img.shields.io/badge/redux-CA68FF?style=for-the-badge&logo=redux&logoColor=764abc" alt='redux'></img></li>
+                                <li><img src="https://img.shields.io/badge/styled--components-FD06FD?style=for-the-badge&logo=styled-components&logoColor=FFF" alt='styled-components'></img></li>
                             </ul>
-                            <h4> Tecnologias utilizadas no Back End </h4>
+                            <h4> Back End Stack</h4>
                             <ul className={styles.tags}>
-                                <li style={{ backgroundColor: '#F0DB4F' }}><SiJavascript /><span>JavaScript</span></li>
-                                <li style={{ backgroundColor: '#68a063' }}><SiNodedotjs /><span>Node.js</span></li>
-                                <li style={{ backgroundColor: '#999' }}><SiExpress /><span>Express</span></li>
-                                <li style={{ backgroundColor: '#0064a5' }}><SiPostgresql /><span>PostgreSQL</span></li>
-                                <li style={{ backgroundColor: '#46B6FF' }}><SiSequelize /><span>Sequelize</span></li>
+                                <li><img src="https://img.shields.io/badge/JavaScript-A3A300?style=for-the-badge&logo=javascript" alt='javascript'></img></li>
+                                <li><img src="https://img.shields.io/badge/node.js-045200?style=for-the-badge&logo=node.js" alt='nodejs'></img></li>
+                                <li><img src="https://img.shields.io/badge/express-323739?style=for-the-badge&logo=express" alt='express'></img></li>
+                                <li><img src="https://img.shields.io/badge/postgresql-08004D?style=for-the-badge&logo=postgresql" alt='postgresql'></img></li>
+                                <li><img src="https://img.shields.io/badge/sequelize-00658E?style=for-the-badge&logo=sequelize" alt='sequelize'></img></li>
                             </ul>
                             <div className={styles.icons}>
                                 <a href='https://github.com/LucasMorettoRodrigues/financas'><BsGithub /> <span>Código</span></a>
@@ -85,17 +90,19 @@ export default function Projects() {
                                 - Autenticação com JsonWebToken .<br />
                                 - CRUD utilizando express, mongoose e mongoDB. <br />
                             </p>
-                            <h4> Tecnologias utilizadas no Front End </h4>
+                            <h4> Front End Stack</h4>
                             <ul className={styles.tags}>
-                                <li style={{ backgroundColor: '#F0DB4F' }}><SiJavascript /><span>JavaScript</span></li>
-                                <li style={{ backgroundColor: '#61DBFB' }}><SiReact /><span>React</span></li>
+                                <li><img src="https://img.shields.io/badge/HTML5-CB7200?style=for-the-badge&logo=html5&logoColor=FFAA3D" alt='html'></img></li>
+                                <li><img src="https://img.shields.io/badge/CSS3-00658E?style=for-the-badge&logo=css3&logoColor=6CCCFF" alt='css'></img></li>
+                                <li><img src="https://img.shields.io/badge/JavaScript-A3A300?style=for-the-badge&logo=javascript" alt='javascript'></img></li>
+                                <li><img src="https://img.shields.io/badge/React-323739?style=for-the-badge&logo=react" alt='react'></img></li>
                             </ul>
-                            <h4> Tecnologias utilizadas no Back End </h4>
+                            <h4> Back End Stack</h4>
                             <ul className={styles.tags}>
-                                <li style={{ backgroundColor: '#F0DB4F' }}><SiJavascript /><span>JavaScript</span></li>
-                                <li style={{ backgroundColor: '#68a063' }}><SiNodedotjs /><span>Node.js</span></li>
-                                <li style={{ backgroundColor: '#999' }}><SiExpress /><span>Express</span></li>
-                                <li style={{ backgroundColor: '#4DB33D' }}><SiMongodb /><span>MongoDB</span></li>
+                                <li><img src="https://img.shields.io/badge/JavaScript-A3A300?style=for-the-badge&logo=javascript" alt='javascript'></img></li>
+                                <li><img src="https://img.shields.io/badge/node.js-045200?style=for-the-badge&logo=node.js" alt='nodejs'></img></li>
+                                <li><img src="https://img.shields.io/badge/express-323739?style=for-the-badge&logo=express" alt='express'></img></li>
+                                <li><img src="https://img.shields.io/badge/mongodb-045200?style=for-the-badge&logo=mongodb" alt='mongodb'></img></li>
                             </ul>
                             <div className={styles.icons}>
                                 <a href='https://github.com/LucasMorettoRodrigues/rememeber-api'><BsGithub /> <span>Código</span></a>

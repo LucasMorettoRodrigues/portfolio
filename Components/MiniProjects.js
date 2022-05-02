@@ -16,8 +16,8 @@ export default function MiniProjects() {
                     </div>
                     <p>Agência Turismo</p>
                     <ul className={styles.tags1}>
-                        <li style={{ backgroundColor: '#563d7c' }}><SiBootstrap /><span>Bootstrap</span></li>
-                        <li style={{ backgroundColor: '#2965f1' }}><SiCss3 /><span>CSS3</span></li>
+                        <li><img src="https://img.shields.io/badge/Boostrap-CA68FF?style=for-the-badge&logo=bootstrap" alt='bootstrap'></img></li>
+                        <li><img src="https://img.shields.io/badge/CSS3-00658E?style=for-the-badge&logo=css3&logoColor=6CCCFF" alt='css'></img></li>
                     </ul>
                     <div className={styles.icons}>
                         <a href='https://github.com/LucasMorettoRodrigues/iTravel'><BsGithub /> <span>Código</span></a>
@@ -30,8 +30,8 @@ export default function MiniProjects() {
                     </div>
                     <p>Construtor de CV</p>
                     <ul className={styles.tags1}>
-                        <li style={{ backgroundColor: '#F0DB4F' }}><SiJavascript /><span>JavaScript</span></li>
-                        <li style={{ backgroundColor: '#61DBFB' }}><SiReact /><span>React</span></li>
+                        <li><img src="https://img.shields.io/badge/JavaScript-A3A300?style=for-the-badge&logo=javascript" alt='javascript'></img></li>
+                        <li><img src="https://img.shields.io/badge/React-323739?style=for-the-badge&logo=react" alt='react'></img></li>
                     </ul>
                     <div className={styles.icons}>
                         <a href='https://github.com/LucasMorettoRodrigues/cv_application'><BsGithub /> <span>Código</span></a>
@@ -44,8 +44,8 @@ export default function MiniProjects() {
                     </div>
                     <p>Calculadora</p>
                     <ul className={styles.tags1}>
-                        <li style={{ backgroundColor: '#F0DB4F' }}><SiJavascript /><span>JavaScript</span></li>
-                        <li style={{ backgroundColor: '#2965f1' }}><SiCss3 /><span>CSS3</span></li>
+                        <li><img src="https://img.shields.io/badge/JavaScript-A3A300?style=for-the-badge&logo=javascript" alt='javascript'></img></li>
+                        <li><img src="https://img.shields.io/badge/CSS3-00658E?style=for-the-badge&logo=css3&logoColor=6CCCFF" alt='css'></img></li>
                     </ul>
                     <div className={styles.icons}>
                         <a href='https://github.com/LucasMorettoRodrigues/calculator'><BsGithub /> <span>Código</span></a>
@@ -58,8 +58,8 @@ export default function MiniProjects() {
                     </div>
                     <p>Consulta Tempo</p>
                     <ul className={styles.tags1}>
-                        <li style={{ backgroundColor: '#F0DB4F' }}><SiJavascript /><span>JavaScript</span></li>
-                        <li style={{ backgroundColor: '#2965f1' }}><SiCss3 /><span>CSS3</span></li>
+                        <li><img src="https://img.shields.io/badge/JavaScript-A3A300?style=for-the-badge&logo=javascript" alt='javascript'></img></li>
+                        <li><img src="https://img.shields.io/badge/CSS3-00658E?style=for-the-badge&logo=css3&logoColor=6CCCFF" alt='css'></img></li>
                     </ul>
                     <div className={styles.icons}>
                         <a href='https://github.com/LucasMorettoRodrigues/Weather-App'><BsGithub /> <span>Código</span></a>
@@ -72,8 +72,8 @@ export default function MiniProjects() {
                     </div>
                     <p>Jogo da Memória</p>
                     <ul className={styles.tags1}>
-                        <li style={{ backgroundColor: '#F0DB4F' }}><SiJavascript /><span>JavaScript</span></li>
-                        <li style={{ backgroundColor: '#61DBFB' }}><SiReact /><span>React</span></li>
+                        <li><img src="https://img.shields.io/badge/JavaScript-A3A300?style=for-the-badge&logo=javascript" alt='javascript'></img></li>
+                        <li><img src="https://img.shields.io/badge/React-323739?style=for-the-badge&logo=react" alt='react'></img></li>
                     </ul>
                     <div className={styles.icons}>
                         <a href='https://github.com/LucasMorettoRodrigues/memory-card'><BsGithub /> <span>Código</span></a>
