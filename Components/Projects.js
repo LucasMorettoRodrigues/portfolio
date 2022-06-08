@@ -130,8 +130,8 @@ export default function Projects() {
                                 <li><img src="https://img.shields.io/badge/Firebase-F29D0C?style=for-the-badge&logo=firebase&logoColor=white" alt='firebase'></img></li>
                             </ul>
                             <div className={styles.icons}>
-                                <a href='https://github.com/LucasMorettoRodrigues/rememeber-api'><BsGithub /> <span>Código</span></a>
-                                <a href='https://lucasmorettorodrigues.github.io/remember/'><BsFillArrowUpRightCircleFill /> <span>Visitar</span></a>
+                                <a href='https://github.com/LucasMorettoRodrigues/findTeacher'><BsGithub /> <span>Código</span></a>
+                                <a href='https://vercel.com/lucasmorettorodrigues/findteacher'><BsFillArrowUpRightCircleFill /> <span>Visitar</span></a>
                             </div>
                         </div>
                     </li>
